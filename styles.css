@@ -40,7 +40,12 @@ button{
     display: flex;
     width: 25vh;
     margin-right: 12vh;
-    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    width: 50px;
+    rotate: -10deg;
 
 }
 
@@ -79,7 +84,7 @@ button{
     justify-content: space-around;
     height: 80vh;
     align-items: center;
-    background-image: url("background.png");   
+    background-image: url("./imgs/backgrounds/background.png");   
     background-repeat: no-repeat;
     background-size: 100% 100%;
  }
@@ -112,14 +117,14 @@ button{
     
  }
  .about-us-img{
-    width:250px ;
-    height: 290px;
+    width:300px ;
     border-radius: 20px 20px 3px 3px;
+    margin-right: 15vh;
  }
 
 .welcome{
     display: flex;
-    background-image: url("background2.png");   
+    background-image: url("./imgs/backgrounds/background2.png");   
     background-repeat: no-repeat;
     background-size: 100% 100% ;
 }
@@ -196,7 +201,7 @@ button{
     margin-bottom: 1vh;
  }
 .main-service{
-    background-image: url("background3.png");
+    background-image: url("./imgs/backgrounds/background3-1.png");
     background-repeat: no-repeat;
     background-size: 100% 100% ;
     width: 100%;
@@ -369,16 +374,27 @@ footer{
     border: solid;
     justify-content: space-around;
     padding-top: 20vh;
+    padding-bottom: 5vh;
+    background-color: #9c6307;
+    background-image: url("./imgs/backgrounds/footer.png");
+    background-repeat: no-repeat;
    
 }
 .footer-content{
      display: flex;
+     margin-left: -10vh;
 } 
 .footer-info{
-    margin-left: 8vh;
-    margin-right: 8vh;
-    
+    margin-left: 8vh;    
 } 
+.footer-a{
+ display: flex;
+ justify-content: space-between;
+    
+}
+.right-footer-btns{
+    padding: 0px 5px;
+}
 
 button:hover{ 
     background-color: #e4d0a3;
