@@ -1,12 +1,136 @@
 
+@media screen and (max-width:800px){
+
+img{
+    width: 50px;
+}
+button:hover{ 
+    background-color: #e4d0a3;
+}
+button{
+    border-radius: 20px;
+    padding: 5px 40px;
+    background-color: #c7b180;}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-title{
+    display: flex;
+}
+
+.nav-bar{
+    display: none;
+}
+
+.about-us{
+    padding-top: 2vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-us-img1 , .img-3{
+    width: 200px;
+}
+.a21gin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-us-img , .img-2 , .img-1
+, .line-lorem-welcome ,.left-services-btns,.right-services-btns{
+    display: none;
+}
+
+.line-lorem-about-us{
+    display: flex;
+    align-items: center;
+}
+.line2 , .line{
+    height: 1px;
+    width: 51px;
+    background-color: #000000;
+}
+.about-us-content{
+    width: 60%;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.welcome-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-content p{
+    width: 70%;
+    margin-top: 1vh;
+}
+.ser{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+*{  list-style: none;
+    margin: 0;
+    border: .1px solid;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width:800px){
-    *{  list-style: none;
-        margin: 0;
-        /* border: 1px solid; */
-        text-decoration: none;
-        color: black;
-    }
+    
     body{
         width: 1300px;
         margin: auto;
@@ -91,7 +215,8 @@
         background-repeat: no-repeat;
         background-size: 100% 100%;
      }
-    
+     .about-us-img1{
+display: none;    }
      .a21gin{
         width: 40%;
      }
@@ -133,6 +258,7 @@
     }
     .welcome-imgs{
         display: flex;
+        margin-left: 1vh;
     }
     .img-2-3{
         display:flex;
@@ -368,8 +494,7 @@
     .sale-btn{
         height: 30px;
         padding: 5px 40px;
-        border-radius: 20px 0px 20px 0px;
-        border: solid 1px;
+        border-radius: 20px ;
     }
     footer{
         display: flex;
@@ -401,38 +526,27 @@
     button:hover{ 
         background-color: #e4d0a3;
     }
+
+
+
+
+
+.flip{
+    cursor: pointer;}
+    .flip:hover{
+        animation: flip 1s linear;
+        }
+        @keyframes flip{
+        from{
+        transform: rotateY(0deg);
+        }
+        to{
+        transform: rotateY(360deg);
+        }
+    }
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:800px){
-   
-}
-
-
-
 
 
 

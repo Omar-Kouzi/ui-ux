@@ -1,0 +1,37 @@
+.conteudo {
+    width:80%;
+    margin: auto;
+    }
+    .gallery {
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+
+    }
+    .gallery::-webkit-scrollbar {
+    display: none;
+    }
+    .card {
+        background-color: blue;
+    scroll-snap-align: start;
+    border-radius: 30px;
+    min-height: 400px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .card:nth-child(odd) {
+    background: linear-gradient(-229deg,
+    Jufbd52d, O ef3a7b);
+
+    }
+    .card:nth-child(even) {
+    background: linear-gradient(-229deg,
+    Duff70af, 5fa8fs);
+    }
