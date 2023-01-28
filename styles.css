@@ -372,10 +372,7 @@ display: none;    }
     .right-services{
         width: 40%;
     }
-    .icon{
-        width: 30px;
-        height: 30px;
-    }
+  
     .img-services{
         height: 500px;
         width: 300px;
@@ -502,7 +499,6 @@ display: none;    }
         justify-content: space-around;
         padding-top: 20vh;
         padding-bottom: 5vh;
-        background-color: #9c6307;
         background-image: url("./imgs/backgrounds/footer.png");
         background-repeat: no-repeat;
        
